@@ -1,0 +1,29 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "avaritia.mixins",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "LivingEntityMixin",
+    "MinecraftServerMixin",
+    "PlayerEntityMixin",
+    "PlayerInventoryMixin",
+    "PlayerManagerMixin",
+    "ServerPlayerEntityMixin",
+    "ServerPlayerInteractionManagerMixin",
+    "ServerWorldMixin",
+    "WorldMixin",
+    "accessors.LivingEntityAccessor",
+    "accessors.StatusEffectAccessor",
+    "accessors.StatusEffectInstanceAccessor"
+  ],
+  "client": [
+    "ArmorFeatureRendererMixin",
+    "ClientWorldMixin",
+    "accessors.MinecraftClientAccessor",
+    "accessors.ModelPartAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,29 +1,32 @@
 {
   "schemaVersion": 1,
-  "id": "avaratia",
+  "id": "avaritia",
   "version": "${version}",
 
-  "name": "Avaratia - Fabric",
-  "description": "Port of the famous Avaratia Forge mod",
+  "name": "Avaritia - Fabric",
+  "description": "Port of the famous Avaritia Forge mod",
   "authors": [
     "MorningSage"
   ],
   "contact": {
-    "homepage": "https://github.com/MorningSage/Avaratia-Fabric",
-    "sources": "https://github.com/MorningSage/Avaratia-Fabric"
+    "homepage": "https://github.com/MorningSage/Avaritia-Fabric",
+    "sources": "https://github.com/MorningSage/Avaritia-Fabric"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/avaratia/avaratia.png",
+  "icon": "assets/avaritia/avaritia.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "avaratia.Avaratia"
+      "avaritia.Avaritia"
+    ],
+    "client": [
+      "avaritia.AvaritiaClient"
     ]
   },
   "mixins": [
-    "avaratia.mixins.json"
+    "avaritia.mixins.json"
   ],
 
   "depends": {
